@@ -9,7 +9,7 @@ function SendWebHook(webhook, title, color, message)
             ["title"] = title,
             ["description"] =  ""..message.."",
             ["footer"] ={
-                ["text"] = timestamp..,
+                ["text"] = timestamp,
             },
         }
     }
